@@ -792,7 +792,8 @@ def reshape_matrix(array, y, x):
 
 
 
-def mask_roi(array, source_xy, exc_radius=4, ann_width=4, inc_radius=8, mode='val', plot=False):
+def mask_roi(array, source_xy, exc_radius=4, ann_width=4, inc_radius=8, 
+             mode='val', plot=False):
     """
     Return a mask corresponding to the region of interest for a test point source as 
     defined in Gebhard et al.(2020). 
